@@ -1,0 +1,7 @@
+session_id,attempt_id,user_id,test_id,session_start_timestamp,session_end_timestamp,session_duration_seconds,actions_in_session,ended_due_to_ttl
+sess1,user1_testA,user1,testA,2025-06-02 00:00:00 UTC,2025-06-02 00:02:30 UTC,150,5,False
+sess2,user2_testB,user2,testB,2025-06-02 00:03:00 UTC,,,2,False
+sess3,user3_testA,user3,testA,2025-06-02 00:04:00 UTC,2025-06-02 00:05:45 UTC,105,5,False
+sess4,user4_testC,user4,testC,2025-06-02 00:06:00 UTC,2025-06-02 00:06:45 UTC,45,4,False
+sess5,user5_testD,user5,testD,2025-06-02 00:07:00 UTC,2025-06-02 00:08:00 UTC,60,4,False
+sess6,user5_testD,user5,testD,2025-06-02 00:08:30 UTC,2025-06-02 00:09:15 UTC,45,3,False

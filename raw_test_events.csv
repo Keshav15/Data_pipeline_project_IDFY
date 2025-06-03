@@ -1,0 +1,32 @@
+event_id,event_timestamp,event_type,user_id,test_id,session_id,question_id,page_number,selected_option,is_correct,time_spent_on_question_ms,error_details,metadata
+evt_1,2025-06-02 00:00:00 UTC,TEST_STARTED,user1,testA,sess1,,,,,,,{"browser": "Chrome", "device": "desktop", "test_name": "Physics Midterm", "teacher_id": "teacher1", "total_questions": 5, "subject": "Physics", "deadline_timestamp": "2025-06-02 00:10:00 UTC"}
+evt_2,2025-06-02 00:00:15 UTC,QUESTION_VIEWED,user1,testA,sess1,q1,1,,,15000,,{"question_text": "What is the speed of light?", "correct_option": "C", "options": ["A", "B", "C", "D"], "question_type": "MCQ_SINGLE_CORRECT", "difficulty_level": "Medium"}
+evt_3,2025-06-02 00:00:30 UTC,QUESTION_ANSWERED,user1,testA,sess1,q1,1,A,True,15000,,
+evt_4,2025-06-02 00:01:00 UTC,QUESTION_VIEWED,user1,testA,sess1,q2,2,,,30000,,{"question_text": "Newton's first law states...", "correct_option": "A", "options": ["A", "B", "C", "D"], "question_type": "MCQ_SINGLE_CORRECT", "difficulty_level": "Easy"}
+evt_5,2025-06-02 00:01:20 UTC,QUESTION_ANSWERED,user1,testA,sess1,q2,2,B,False,20000,,
+evt_6,2025-06-02 00:02:00 UTC,TEST_SUBMITTED,user1,testA,sess1,,,,,,,{"score": 0.5}
+evt_7,2025-06-02 00:02:30 UTC,SESSION_ENDED,user1,testA,sess1,,,,,,,{"reason": "submitted"}
+evt_8,2025-06-02 00:03:00 UTC,TEST_STARTED,user2,testB,sess2,,,,,,,{"browser": "Firefox", "device": "mobile", "test_name": "Math Quiz 1", "teacher_id": "teacher2", "total_questions": 3, "subject": "Math", "deadline_timestamp": "2025-06-05 12:00:00 UTC"}
+evt_9,2025-06-02 00:03:10 UTC,QUESTION_VIEWED,user2,testB,sess2,q3,1,,,10000,,{"question_text": "What is 2 + 2?", "correct_option": "B", "options": ["1", "2", "3", "4"], "question_type": "MCQ_SINGLE_CORRECT", "difficulty_level": "Easy"}
+evt_10,2025-06-02 00:03:25 UTC,QUESTION_ANSWERED,user2,testB,sess2,q3,1,C,True,15000,,
+evt_11,2025-06-02 00:04:00 UTC,TEST_STARTED,user3,testA,sess3,,,,,,,{"browser": "Safari", "device": "tablet", "test_name": "Physics Midterm", "teacher_id": "teacher1", "total_questions": 5, "subject": "Physics", "deadline_timestamp": "2025-06-02 00:10:00 UTC"}
+evt_12,2025-06-02 00:04:10 UTC,QUESTION_VIEWED,user3,testA,sess3,q1,1,,,10000,,{"question_text": "What is the speed of light?", "correct_option": "C", "options": ["A", "B", "C", "D"], "question_type": "MCQ_SINGLE_CORRECT", "difficulty_level": "Medium"}
+evt_13,2025-06-02 00:04:25 UTC,QUESTION_ANSWERED,user3,testA,sess3,q1,1,A,True,15000,,
+evt_14,2025-06-02 00:04:40 UTC,QUESTION_VIEWED,user3,testA,sess3,q2,2,,,15000,,{"question_text": "Newton's first law states...", "correct_option": "A", "options": ["A", "B", "C", "D"], "question_type": "MCQ_SINGLE_CORRECT", "difficulty_level": "Easy"}
+evt_15,2025-06-02 00:05:00 UTC,QUESTION_RESUBMITTED,user3,testA,sess3,q2,2,C,True,20000,,
+evt_16,2025-06-02 00:05:30 UTC,TEST_SUBMITTED,user3,testA,sess3,,,,,,,{"score": 1.0}
+evt_17,2025-06-02 00:05:45 UTC,SESSION_ENDED,user3,testA,sess3,,,,,,,{"reason": "completed"}
+evt_18,2025-06-02 00:06:00 UTC,TEST_STARTED,user4,testC,sess4,,,,,,,{"browser": "Chrome", "device": "desktop", "test_name": "Chemistry Basics", "teacher_id": "teacher3", "total_questions": 4, "subject": "Chemistry", "deadline_timestamp": "2025-06-03 10:00:00 UTC"}
+evt_19,2025-06-02 00:06:10 UTC,QUESTION_VIEWED,user4,testC,sess4,q4,1,,,10000,,{"question_text": "What is H2O?", "correct_option": "Water", "options": ["Oxygen", "Water", "Hydrogen", "Carbon"], "question_type": "MCQ_SINGLE_CORRECT", "difficulty_level": "Easy"}
+evt_20,2025-06-02 00:06:20 UTC,QUESTION_ANSWERED,user4,testC,sess4,q4,1,X,False,10000,,
+evt_21,2025-06-02 00:06:30 UTC,SUBMISSION_FAILED,user4,testC,sess4,q4,1,,,,Network Error,
+evt_22,2025-06-02 00:06:45 UTC,SESSION_ENDED,user4,testC,sess4,,,,,,,{"reason": "timeout"}
+evt_23,2025-06-02 00:07:00 UTC,TEST_STARTED,user5,testD,sess5,,,,,,,{"browser": "Edge", "device": "desktop", "test_name": "History Exam", "teacher_id": "teacher4", "total_questions": 6, "subject": "History", "deadline_timestamp": "2025-06-04 15:00:00 UTC"}
+evt_24,2025-06-02 00:07:15 UTC,QUESTION_VIEWED,user5,testD,sess5,q5,1,,,15000,,{"question_text": "Who was the first president of USA?", "correct_option": "George Washington", "options": ["Abraham Lincoln", "George Washington", "Thomas Jefferson", "John Adams"], "question_type": "MCQ_SINGLE_CORRECT", "difficulty_level": "Medium"}
+evt_25,2025-06-02 00:07:30 UTC,QUESTION_ANSWERED,user5,testD,sess5,q5,1,Y,True,15000,,
+evt_26,2025-06-02 00:07:45 UTC,QUESTION_VIEWED,user5,testD,sess5,q6,2,,,15000,,{"question_text": "When did World War II end?", "correct_option": "1945", "options": ["1939", "1941", "1945", "1950"], "question_type": "MCQ_SINGLE_CORRECT", "difficulty_level": "Hard"}
+evt_27,2025-06-02 00:08:00 UTC,SESSION_ENDED,user5,testD,sess5,,,,,,,{"reason": "idle_timeout"}
+evt_28,2025-06-02 00:08:30 UTC,TEST_STARTED,user5,testD,sess6,,,,,,,{"browser": "Edge", "device": "desktop", "test_name": "History Exam", "teacher_id": "teacher4", "total_questions": 6, "subject": "History", "deadline_timestamp": "2025-06-04 15:00:00 UTC"}
+evt_29,2025-06-02 00:08:45 UTC,QUESTION_VIEWED,user5,testD,sess6,q6,2,,,15000,,{"question_text": "When did World War II end?", "correct_option": "1945", "options": ["1939", "1941", "1945", "1950"], "question_type": "MCQ_SINGLE_CORRECT", "difficulty_level": "Hard"}
+evt_30,2025-06-02 00:09:00 UTC,TEST_SUBMITTED,user5,testD,sess6,,,,,,,{"score": 0.8}
+evt_31,2025-06-02 00:09:15 UTC,SESSION_ENDED,user5,testD,sess6,,,,,,,{"reason": "completed"}

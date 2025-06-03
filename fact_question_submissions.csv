@@ -1,0 +1,8 @@
+submission_id,attempt_id,user_id,test_id,session_id,question_id,submission_timestamp,is_resubmission,selected_option,is_correct,time_on_question_ms,time_since_last_question_ms,time_since_test_start_ms
+evt_3,user1_testA,user1,testA,sess1,q1,2025-06-02 00:00:30 UTC,False,A,True,15000,30000,30000
+evt_5,user1_testA,user1,testA,sess1,q2,2025-06-02 00:01:20 UTC,False,B,False,20000,50000,80000
+evt_10,user2_testB,user2,testB,sess2,q3,2025-06-02 00:03:25 UTC,False,C,True,15000,25000,25000
+evt_13,user3_testA,user3,testA,sess3,q1,2025-06-02 00:04:25 UTC,False,A,True,15000,25000,25000
+evt_15,user3_testA,user3,testA,sess3,q2,2025-06-02 00:05:00 UTC,True,C,True,20000,35000,60000
+evt_20,user4_testC,user4,testC,sess4,q4,2025-06-02 00:06:20 UTC,False,X,False,10000,20000,20000
+evt_25,user5_testD,user5,testD,sess5,q5,2025-06-02 00:07:30 UTC,False,Y,True,15000,30000,30000

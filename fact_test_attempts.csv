@@ -1,0 +1,6 @@
+attempt_id,user_id,test_id,start_timestamp,end_timestamp,status,total_score,questions_answered,questions_correct,completion_time_seconds,number_of_sessions,last_page_visited
+user1_testA,user1,testA,2025-06-02 00:00:00 UTC,2025-06-02 00:02:00 UTC,COMPLETED,0.5,2,1,120,1,2
+user2_testB,user2,testB,2025-06-02 00:03:00 UTC,,IN_PROGRESS,1.0,1,1,,1,1
+user3_testA,user3,testA,2025-06-02 00:04:00 UTC,2025-06-02 00:05:30 UTC,COMPLETED,1.0,2,2,90,1,2
+user4_testC,user4,testC,2025-06-02 00:06:00 UTC,,FAILED_SUBMISSION,0.0,1,0,,1,1
+user5_testD,user5,testD,2025-06-02 00:07:00 UTC,2025-06-02 00:09:00 UTC,COMPLETED,0.8,2,1,120,2,2

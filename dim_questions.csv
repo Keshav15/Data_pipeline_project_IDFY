@@ -1,0 +1,7 @@
+question_id,test_id,question_text,correct_option,options,question_type,difficulty_level,page_order
+q1,testA,What is the speed of light?,C,['A', 'B', 'C', 'D'],MCQ_SINGLE_CORRECT,Medium,1
+q2,testA,Newton's first law states...,A,['A', 'B', 'C', 'D'],MCQ_SINGLE_CORRECT,Easy,2
+q3,testB,What is 2 + 2?,B,['1', '2', '3', '4'],MCQ_SINGLE_CORRECT,Easy,1
+q4,testC,What is H2O?,Water,['Oxygen', 'Water', 'Hydrogen', 'Carbon'],MCQ_SINGLE_CORRECT,Easy,1
+q5,testD,Who was the first president of USA?,George Washington,['Abraham Lincoln', 'George Washington', 'Thomas Jefferson', 'John Adams'],MCQ_SINGLE_CORRECT,Medium,1
+q6,testD,When did World War II end?,1945,['1939', '1941', '1945', '1950'],MCQ_SINGLE_CORRECT,Hard,2

@@ -1,0 +1,6 @@
+user_id,user_name,enrollment_date,other_user_metadata
+user1,Student_user1,2025-06-02 00:00:00 UTC,
+user2,Student_user2,2025-06-02 00:03:00 UTC,
+user3,Student_user3,2025-06-02 00:04:00 UTC,
+user4,Student_user4,2025-06-02 00:06:00 UTC,
+user5,Student_user5,2025-06-02 00:07:00 UTC,
