@@ -1,0 +1,630 @@
+[
+  {
+    "event_id": "evt_1",
+    "event_timestamp": "2025-06-02 00:00:00 UTC",
+    "event_type": "TEST_STARTED",
+    "user_id": "user1",
+    "test_id": "testA",
+    "session_id": "sess1",
+    "question_id": null,
+    "page_number": null,
+    "selected_option": null,
+    "is_correct": null,
+    "time_spent_on_question_ms": null,
+    "error_details": null,
+    "metadata": {
+      "browser": "Chrome",
+      "device": "desktop",
+      "test_name": "Physics Midterm",
+      "teacher_id": "teacher1",
+      "total_questions": 5,
+      "subject": "Physics",
+      "deadline_timestamp": "2025-06-02 00:10:00 UTC"
+    }
+  },
+  {
+    "event_id": "evt_2",
+    "event_timestamp": "2025-06-02 00:00:15 UTC",
+    "event_type": "QUESTION_VIEWED",
+    "user_id": "user1",
+    "test_id": "testA",
+    "session_id": "sess1",
+    "question_id": "q1",
+    "page_number": 1,
+    "selected_option": null,
+    "is_correct": null,
+    "time_spent_on_question_ms": 15000,
+    "error_details": null,
+    "metadata": {
+      "question_text": "What is the speed of light?",
+      "correct_option": "C",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "question_type": "MCQ_SINGLE_CORRECT",
+      "difficulty_level": "Medium"
+    }
+  },
+  {
+    "event_id": "evt_3",
+    "event_timestamp": "2025-06-02 00:00:30 UTC",
+    "event_type": "QUESTION_ANSWERED",
+    "user_id": "user1",
+    "test_id": "testA",
+    "session_id": "sess1",
+    "question_id": "q1",
+    "page_number": 1,
+    "selected_option": "A",
+    "is_correct": true,
+    "time_spent_on_question_ms": 15000,
+    "error_details": null,
+    "metadata": null
+  },
+  {
+    "event_id": "evt_4",
+    "event_timestamp": "2025-06-02 00:01:00 UTC",
+    "event_type": "QUESTION_VIEWED",
+    "user_id": "user1",
+    "test_id": "testA",
+    "session_id": "sess1",
+    "question_id": "q2",
+    "page_number": 2,
+    "selected_option": null,
+    "is_correct": null,
+    "time_spent_on_question_ms": 30000,
+    "error_details": null,
+    "metadata": {
+      "question_text": "Newton's first law states...",
+      "correct_option": "A",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "question_type": "MCQ_SINGLE_CORRECT",
+      "difficulty_level": "Easy"
+    }
+  },
+  {
+    "event_id": "evt_5",
+    "event_timestamp": "2025-06-02 00:01:20 UTC",
+    "event_type": "QUESTION_ANSWERED",
+    "user_id": "user1",
+    "test_id": "testA",
+    "session_id": "sess1",
+    "question_id": "q2",
+    "page_number": 2,
+    "selected_option": "B",
+    "is_correct": false,
+    "time_spent_on_question_ms": 20000,
+    "error_details": null,
+    "metadata": null
+  },
+  {
+    "event_id": "evt_6",
+    "event_timestamp": "2025-06-02 00:02:00 UTC",
+    "event_type": "TEST_SUBMITTED",
+    "user_id": "user1",
+    "test_id": "testA",
+    "session_id": "sess1",
+    "question_id": null,
+    "page_number": null,
+    "selected_option": null,
+    "is_correct": null,
+    "time_spent_on_question_ms": null,
+    "error_details": null,
+    "metadata": {
+      "score": 0.5
+    }
+  },
+  {
+    "event_id": "evt_7",
+    "event_timestamp": "2025-06-02 00:02:30 UTC",
+    "event_type": "SESSION_ENDED",
+    "user_id": "user1",
+    "test_id": "testA",
+    "session_id": "sess1",
+    "question_id": null,
+    "page_number": null,
+    "selected_option": null,
+    "is_correct": null,
+    "time_spent_on_question_ms": null,
+    "error_details": null,
+    "metadata": {
+      "reason": "submitted"
+    }
+  },
+  {
+    "event_id": "evt_8",
+    "event_timestamp": "2025-06-02 00:03:00 UTC",
+    "event_type": "TEST_STARTED",
+    "user_id": "user2",
+    "test_id": "testB",
+    "session_id": "sess2",
+    "question_id": null,
+    "page_number": null,
+    "selected_option": null,
+    "is_correct": null,
+    "time_spent_on_question_ms": null,
+    "error_details": null,
+    "metadata": {
+      "browser": "Firefox",
+      "device": "mobile",
+      "test_name": "Math Quiz 1",
+      "teacher_id": "teacher2",
+      "total_questions": 3,
+      "subject": "Math",
+      "deadline_timestamp": "2025-06-05 12:00:00 UTC"
+    }
+  },
+  {
+    "event_id": "evt_9",
+    "event_timestamp": "2025-06-02 00:03:10 UTC",
+    "event_type": "QUESTION_VIEWED",
+    "user_id": "user2",
+    "test_id": "testB",
+    "session_id": "sess2",
+    "question_id": "q3",
+    "page_number": 1,
+    "selected_option": null,
+    "is_correct": null,
+    "time_spent_on_question_ms": 10000,
+    "error_details": null,
+    "metadata": {
+      "question_text": "What is 2 + 2?",
+      "correct_option": "B",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "question_type": "MCQ_SINGLE_CORRECT",
+      "difficulty_level": "Easy"
+    }
+  },
+  {
+    "event_id": "evt_10",
+    "event_timestamp": "2025-06-02 00:03:25 UTC",
+    "event_type": "QUESTION_ANSWERED",
+    "user_id": "user2",
+    "test_id": "testB",
+    "session_id": "sess2",
+    "question_id": "q3",
+    "page_number": 1,
+    "selected_option": "C",
+    "is_correct": true,
+    "time_spent_on_question_ms": 15000,
+    "error_details": null,
+    "metadata": null
+  },
+  {
+    "event_id": "evt_11",
+    "event_timestamp": "2025-06-02 00:04:00 UTC",
+    "event_type": "TEST_STARTED",
+    "user_id": "user3",
+    "test_id": "testA",
+    "session_id": "sess3",
+    "question_id": null,
+    "page_number": null,
+    "selected_option": null,
+    "is_correct": null,
+    "time_spent_on_question_ms": null,
+    "error_details": null,
+    "metadata": {
+      "browser": "Safari",
+      "device": "tablet",
+      "test_name": "Physics Midterm",
+      "teacher_id": "teacher1",
+      "total_questions": 5,
+      "subject": "Physics",
+      "deadline_timestamp": "2025-06-02 00:10:00 UTC"
+    }
+  },
+  {
+    "event_id": "evt_12",
+    "event_timestamp": "2025-06-02 00:04:10 UTC",
+    "event_type": "QUESTION_VIEWED",
+    "user_id": "user3",
+    "test_id": "testA",
+    "session_id": "sess3",
+    "question_id": "q1",
+    "page_number": 1,
+    "selected_option": null,
+    "is_correct": null,
+    "time_spent_on_question_ms": 10000,
+    "error_details": null,
+    "metadata": {
+      "question_text": "What is the speed of light?",
+      "correct_option": "C",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "question_type": "MCQ_SINGLE_CORRECT",
+      "difficulty_level": "Medium"
+    }
+  },
+  {
+    "event_id": "evt_13",
+    "event_timestamp": "2025-06-02 00:04:25 UTC",
+    "event_type": "QUESTION_ANSWERED",
+    "user_id": "user3",
+    "test_id": "testA",
+    "session_id": "sess3",
+    "question_id": "q1",
+    "page_number": 1,
+    "selected_option": "A",
+    "is_correct": true,
+    "time_spent_on_question_ms": 15000,
+    "error_details": null,
+    "metadata": null
+  },
+  {
+    "event_id": "evt_14",
+    "event_timestamp": "2025-06-02 00:04:40 UTC",
+    "event_type": "QUESTION_VIEWED",
+    "user_id": "user3",
+    "test_id": "testA",
+    "session_id": "sess3",
+    "question_id": "q2",
+    "page_number": 2,
+    "selected_option": null,
+    "is_correct": null,
+    "time_spent_on_question_ms": 15000,
+    "error_details": null,
+    "metadata": {
+      "question_text": "Newton's first law states...",
+      "correct_option": "A",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "question_type": "MCQ_SINGLE_CORRECT",
+      "difficulty_level": "Easy"
+    }
+  },
+  {
+    "event_id": "evt_15",
+    "event_timestamp": "2025-06-02 00:05:00 UTC",
+    "event_type": "QUESTION_RESUBMITTED",
+    "user_id": "user3",
+    "test_id": "testA",
+    "session_id": "sess3",
+    "question_id": "q2",
+    "page_number": 2,
+    "selected_option": "C",
+    "is_correct": true,
+    "time_spent_on_question_ms": 20000,
+    "error_details": null,
+    "metadata": null
+  },
+  {
+    "event_id": "evt_16",
+    "event_timestamp": "2025-06-02 00:05:30 UTC",
+    "event_type": "TEST_SUBMITTED",
+    "user_id": "user3",
+    "test_id": "testA",
+    "session_id": "sess3",
+    "question_id": null,
+    "page_number": null,
+    "selected_option": null,
+    "is_correct": null,
+    "time_spent_on_question_ms": null,
+    "error_details": null,
+    "metadata": {
+      "score": 1.0
+    }
+  },
+  {
+    "event_id": "evt_17",
+    "event_timestamp": "2025-06-02 00:05:45 UTC",
+    "event_type": "SESSION_ENDED",
+    "user_id": "user3",
+    "test_id": "testA",
+    "session_id": "sess3",
+    "question_id": null,
+    "page_number": null,
+    "selected_option": null,
+    "is_correct": null,
+    "time_spent_on_question_ms": null,
+    "error_details": null,
+    "metadata": {
+      "reason": "completed"
+    }
+  },
+  {
+    "event_id": "evt_18",
+    "event_timestamp": "2025-06-02 00:06:00 UTC",
+    "event_type": "TEST_STARTED",
+    "user_id": "user4",
+    "test_id": "testC",
+    "session_id": "sess4",
+    "question_id": null,
+    "page_number": null,
+    "selected_option": null,
+    "is_correct": null,
+    "time_spent_on_question_ms": null,
+    "error_details": null,
+    "metadata": {
+      "browser": "Chrome",
+      "device": "desktop",
+      "test_name": "Chemistry Basics",
+      "teacher_id": "teacher3",
+      "total_questions": 4,
+      "subject": "Chemistry",
+      "deadline_timestamp": "2025-06-03 10:00:00 UTC"
+    }
+  },
+  {
+    "event_id": "evt_19",
+    "event_timestamp": "2025-06-02 00:06:10 UTC",
+    "event_type": "QUESTION_VIEWED",
+    "user_id": "user4",
+    "test_id": "testC",
+    "session_id": "sess4",
+    "question_id": "q4",
+    "page_number": 1,
+    "selected_option": null,
+    "is_correct": null,
+    "time_spent_on_question_ms": 10000,
+    "error_details": null,
+    "metadata": {
+      "question_text": "What is H2O?",
+      "correct_option": "Water",
+      "options": [
+        "Oxygen",
+        "Water",
+        "Hydrogen",
+        "Carbon"
+      ],
+      "question_type": "MCQ_SINGLE_CORRECT",
+      "difficulty_level": "Easy"
+    }
+  },
+  {
+    "event_id": "evt_20",
+    "event_timestamp": "2025-06-02 00:06:20 UTC",
+    "event_type": "QUESTION_ANSWERED",
+    "user_id": "user4",
+    "test_id": "testC",
+    "session_id": "sess4",
+    "question_id": "q4",
+    "page_number": 1,
+    "selected_option": "X",
+    "is_correct": false,
+    "time_spent_on_question_ms": 10000,
+    "error_details": null,
+    "metadata": null
+  },
+  {
+    "event_id": "evt_21",
+    "event_timestamp": "2025-06-02 00:06:30 UTC",
+    "event_type": "SUBMISSION_FAILED",
+    "user_id": "user4",
+    "test_id": "testC",
+    "session_id": "sess4",
+    "question_id": "q4",
+    "page_number": 1,
+    "selected_option": null,
+    "is_correct": null,
+    "time_spent_on_question_ms": null,
+    "error_details": "Network Error",
+    "metadata": null
+  },
+  {
+    "event_id": "evt_22",
+    "event_timestamp": "2025-06-02 00:06:45 UTC",
+    "event_type": "SESSION_ENDED",
+    "user_id": "user4",
+    "test_id": "testC",
+    "session_id": "sess4",
+    "question_id": null,
+    "page_number": null,
+    "selected_option": null,
+    "is_correct": null,
+    "time_spent_on_question_ms": null,
+    "error_details": null,
+    "metadata": {
+      "reason": "timeout"
+    }
+  },
+  {
+    "event_id": "evt_23",
+    "event_timestamp": "2025-06-02 00:07:00 UTC",
+    "event_type": "TEST_STARTED",
+    "user_id": "user5",
+    "test_id": "testD",
+    "session_id": "sess5",
+    "question_id": null,
+    "page_number": null,
+    "selected_option": null,
+    "is_correct": null,
+    "time_spent_on_question_ms": null,
+    "error_details": null,
+    "metadata": {
+      "browser": "Edge",
+      "device": "desktop",
+      "test_name": "History Exam",
+      "teacher_id": "teacher4",
+      "total_questions": 6,
+      "subject": "History",
+      "deadline_timestamp": "2025-06-04 15:00:00 UTC"
+    }
+  },
+  {
+    "event_id": "evt_24",
+    "event_timestamp": "2025-06-02 00:07:15 UTC",
+    "event_type": "QUESTION_VIEWED",
+    "user_id": "user5",
+    "test_id": "testD",
+    "session_id": "sess5",
+    "question_id": "q5",
+    "page_number": 1,
+    "selected_option": null,
+    "is_correct": null,
+    "time_spent_on_question_ms": 15000,
+    "error_details": null,
+    "metadata": {
+      "question_text": "Who was the first president of USA?",
+      "correct_option": "George Washington",
+      "options": [
+        "Abraham Lincoln",
+        "George Washington",
+        "Thomas Jefferson",
+        "John Adams"
+      ],
+      "question_type": "MCQ_SINGLE_CORRECT",
+      "difficulty_level": "Medium"
+    }
+  },
+  {
+    "event_id": "evt_25",
+    "event_timestamp": "2025-06-02 00:07:30 UTC",
+    "event_type": "QUESTION_ANSWERED",
+    "user_id": "user5",
+    "test_id": "testD",
+    "session_id": "sess5",
+    "question_id": "q5",
+    "page_number": 1,
+    "selected_option": "Y",
+    "is_correct": true,
+    "time_spent_on_question_ms": 15000,
+    "error_details": null,
+    "metadata": null
+  },
+  {
+    "event_id": "evt_26",
+    "event_timestamp": "2025-06-02 00:07:45 UTC",
+    "event_type": "QUESTION_VIEWED",
+    "user_id": "user5",
+    "test_id": "testD",
+    "session_id": "sess5",
+    "question_id": "q6",
+    "page_number": 2,
+    "selected_option": null,
+    "is_correct": null,
+    "time_spent_on_question_ms": 15000,
+    "error_details": null,
+    "metadata": {
+      "question_text": "When did World War II end?",
+      "correct_option": "1945",
+      "options": [
+        "1939",
+        "1941",
+        "1945",
+        "1950"
+      ],
+      "question_type": "MCQ_SINGLE_CORRECT",
+      "difficulty_level": "Hard"
+    }
+  },
+  {
+    "event_id": "evt_27",
+    "event_timestamp": "2025-06-02 00:08:00 UTC",
+    "event_type": "SESSION_ENDED",
+    "user_id": "user5",
+    "test_id": "testD",
+    "session_id": "sess5",
+    "question_id": null,
+    "page_number": null,
+    "selected_option": null,
+    "is_correct": null,
+    "time_spent_on_question_ms": null,
+    "error_details": null,
+    "metadata": {
+      "reason": "idle_timeout"
+    }
+  },
+  {
+    "event_id": "evt_28",
+    "event_timestamp": "2025-06-02 00:08:30 UTC",
+    "event_type": "TEST_STARTED",
+    "user_id": "user5",
+    "test_id": "testD",
+    "session_id": "sess6",
+    "question_id": null,
+    "page_number": null,
+    "selected_option": null,
+    "is_correct": null,
+    "time_spent_on_question_ms": null,
+    "error_details": null,
+    "metadata": {
+      "browser": "Edge",
+      "device": "desktop",
+      "test_name": "History Exam",
+      "teacher_id": "teacher4",
+      "total_questions": 6,
+      "subject": "History",
+      "deadline_timestamp": "2025-06-04 15:00:00 UTC"
+    }
+  },
+  {
+    "event_id": "evt_29",
+    "event_timestamp": "2025-06-02 00:08:45 UTC",
+    "event_type": "QUESTION_VIEWED",
+    "user_id": "user5",
+    "test_id": "testD",
+    "session_id": "sess6",
+    "question_id": "q6",
+    "page_number": 2,
+    "selected_option": null,
+    "is_correct": null,
+    "time_spent_on_question_ms": 15000,
+    "error_details": null,
+    "metadata": {
+      "question_text": "When did World War II end?",
+      "correct_option": "1945",
+      "options": [
+        "1939",
+        "1941",
+        "1945",
+        "1950"
+      ],
+      "question_type": "MCQ_SINGLE_CORRECT",
+      "difficulty_level": "Hard"
+    }
+  },
+  {
+    "event_id": "evt_30",
+    "event_timestamp": "2025-06-02 00:09:00 UTC",
+    "event_type": "TEST_SUBMITTED",
+    "user_id": "user5",
+    "test_id": "testD",
+    "session_id": "sess6",
+    "question_id": null,
+    "page_number": null,
+    "selected_option": null,
+    "is_correct": null,
+    "time_spent_on_question_ms": null,
+    "error_details": null,
+    "metadata": {
+      "score": 0.8
+    }
+  },
+  {
+    "event_id": "evt_31",
+    "event_timestamp": "2025-06-02 00:09:15 UTC",
+    "event_type": "SESSION_ENDED",
+    "user_id": "user5",
+    "test_id": "testD",
+    "session_id": "sess6",
+    "question_id": null,
+    "page_number": null,
+    "selected_option": null,
+    "is_correct": null,
+    "time_spent_on_question_ms": null,
+    "error_details": null,
+    "metadata": {
+      "reason": "completed"
+    }
+  }
+]
